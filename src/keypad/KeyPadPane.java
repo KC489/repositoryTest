@@ -50,6 +50,7 @@ public class KeyPadPane extends GridPane {
 		// place all buttons in 1-9, blank, 0, blank order, 3 per row
 		for (int i = 0; i < listButtons.size() / 3; i++) {
 			for (int j = 0; j < 3; j++) {
+			
 				this.add(listButtons.get(counter++), j, i);
 			}
 		}
